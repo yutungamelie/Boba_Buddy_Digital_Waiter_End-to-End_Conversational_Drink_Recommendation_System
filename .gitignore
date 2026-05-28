@@ -1,0 +1,35 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets and local configuration
+.env
+.env.*
+*.key
+*.pem
+credentials.*
+secrets.*
+config.local.*
+
+# Editor / operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Private logs and exports
+private_logs/
+raw_api_outputs/
+production_exports/
+user_data/
+company_source_code/
+
+# Build / cache
+dist/
+build/
+.cache/
